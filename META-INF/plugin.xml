@@ -1,0 +1,45 @@
+<idea-plugin version="2">
+  <id>com.steve.plugins.recentprojects</id>
+  <name>Recent Projects Extender</name>
+  <version>1.0</version>
+  <vendor url="http://plugins.jetbrains.com/space/index?lg=vikingsteve">Steve Murphy</vendor>
+
+
+  <description><![CDATA[
+      Extends the size of your "Reopen Recent Projects" list (alt-R) to 50.<br>
+      <br>
+      In IntelliJ you can do this via ctrl+shift+A, type "Registry", hit enter and modify "ide.max.recent.projects".<br>
+      <br>
+      This plugin is made for IDE's where the "Registry" action is not available (e.g. Android Studio)<br>
+      <br>
+      <i>If you find this plugin useful, please consider leaving a Star-rating and comment :)</i>
+      <br>
+
+      ]]></description>
+
+  <change-notes><![CDATA[
+      1.0 - Initial version.<br>
+      ]]>
+  </change-notes>
+
+  <!-- IntelliJ 13 or newer -->
+  <idea-version since-build="133.0"/>
+
+  <!-- enabled for all products -->
+  <depends>com.intellij.modules.lang</depends>
+
+  <application-components>
+    <component>
+      <implementation-class>com.steve.plugins.recentprojects.RecentProjects</implementation-class>
+    </component>
+  </application-components>
+
+  <project-components>
+  </project-components>
+
+  <actions>
+  </actions>
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+</idea-plugin>
