@@ -4,9 +4,8 @@
   <version>1.0</version>
   <vendor url="http://plugins.jetbrains.com/space/index?lg=vikingsteve">Steve Murphy</vendor>
 
-
   <description><![CDATA[
-      Extends the size of your "Reopen Recent Projects" list (alt-R) to 50.<br>
+      Extends the size of your "Reopen Recent Project" list to 50.<br>
       <br>
       In IntelliJ you can do this via ctrl+shift+A, type "Registry", hit enter and modify "ide.max.recent.projects".<br>
       <br>
